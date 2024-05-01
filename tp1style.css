@@ -4,14 +4,26 @@ body{
 div{
 	background-color: gray;
 }
+#header{
+    align-items: center;
+    text-align: center;
+}
+#section-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#education, #work-experience{
+    width: 50%;
+}
 a:link{
     color: blue;
 }
 a:visited{
-    color: blueviolet;
+    color: rgb(64, 192, 89);
 }
 a:hover{
-    color: greenyellow;
+    color: rgb(252, 252, 252);
 }
 a:active{
     color: crimson;
