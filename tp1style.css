@@ -3,10 +3,22 @@ body{
 }
 div{
 	background-color: gray;
+    border: 1px solid black;
 }
 #header{
     align-items: center;
     text-align: center;
+    position: relative;
+    height: 300px;
+}
+#descrip{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+#descrip h2{
+    display: flex;
+    justify-content: center;
 }
 #section-top{
     width: 100%;
@@ -16,10 +28,14 @@ div{
 #education, #work-experience{
     width: 50%;
 }
+#education{
+    border-right: 3px solid;
+}
 #section-bottom{
     width: 100%;
     display:flex;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 #skills, #languages, #other-skills{
     width: calc(100%/3);
