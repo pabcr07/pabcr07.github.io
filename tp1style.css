@@ -1,15 +1,24 @@
 body{
     background-color: lightgray;
+    font-family: 'Lucida Sans';
 }
 div{
-	background-color: gray;
+	background-color:cadetblue;
     border: 1px solid black;
 }
 #header{
     align-items: center;
     text-align: center;
     position: relative;
-    height: 300px;
+    height: 200px;
+}
+#header h1{
+    font-size: 50px;
+}
+#header h3{
+    position: relative;
+    top: 20px;
+    font-style: italic;
 }
 #descrip{
     margin-top: 5px;
@@ -20,6 +29,10 @@ div{
     display: flex;
     justify-content: center;
 }
+#descrip p{
+    display: flex;
+    justify-content: center;
+}
 #section-top{
     width: 100%;
     display: flex;
@@ -27,6 +40,7 @@ div{
 }
 #education, #work-experience{
     width: 50%;
+    padding-left: 10px;
 }
 #education{
     border-right: 3px solid;
@@ -42,6 +56,16 @@ div{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#skills, #languages{
+    border-right: 3px solid;
+}
+#contacto h2{
+    text-indent: 10px;
+}
+#contacto p{
+    word-spacing: 20px;
+    font-size: larger;
 }
 a:link{
     color: blue;
