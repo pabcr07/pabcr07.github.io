@@ -1,0 +1,3 @@
+Buenas profe, hago este archivo para explicarle la situacion del primer commit que hice. Como podra ver esta la mayor parte del html realizado en el primer commit,
+pero fue porque me olvide de ir haciendo los commits antes y cuando me di cuenta quise borrar el codigo para ir haciendolos nuevamente. Pero no sabia que se commiteaba lo ultimo 
+que estaba guardado que en ese momento era el codigo entero. Saludos
